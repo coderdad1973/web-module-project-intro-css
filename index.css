@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* *{
+    border: 1px fuchsia solid;
+
+} */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    font-size: 1.5rem;
+    margin-top: 4%;
+}
+
+
+
+.nav a{
+    display: inline-block;
+    border-radius: 25px;
+    text-align: center;
+    margin: 60px;
+    margin-top: 15px;
+    padding: 35px;
+    text-decoration: none;
+    color: white;
+   
+    }
+
+a:nth-child(1){
+
+    background-color: #ff764e;
+
+}
+
+a:hover:nth-child(1){
+    background-color:black;
+
+}
+
+a:nth-child(2){
+
+    background-color: #5ed3eb;
+}
+
+a:hover:nth-child(2){
+
+    background-color: black;
+}
+
+a:nth-child(3){
+
+    background-color: #ffcd69;
+
+}
+
+a:hover:nth-child(3){
+
+    background-color: black;
+}
+.header {
+
+    Font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 10%;
+    top: 0;
+    text-align: center;
+    margin-left: 15px;
+}
+
+h1 {
+
+    margin-left: 300px;
+    margin-top: 100px;
+    padding-left: 100px;
+    width: 100%;
+
+}
+main {
+    
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    padding: 20px;
+    
+}
+
+.paragraph {
+
+    background-color:#DDB9A3;
+    color: white;
+    padding: 10px;
+    height: 10%;
+    width: 90%;
+    margin-left: 5%;
+    
+}
+
+.fire-paragraph {
+
+    margin-right: 350px;
+    margin-left: 350px;
+    margin-top: 5%;
+    text-align: center;
+
+}
+
+#bottom-paragraph {
+    padding: 90px;
+    text-align: center;
+    margin-right: 350px;
+    margin-left: 350px;
+}
+
+.ftrimg {
+
+  width: 100%;
+  height: 1%
+ 
+ }
+
+
+.footer nav a {
+    display: inline-block;
+    border-radius: 25px;
+    /* text-align: center; */
+    margin: 60px;
+    margin-top: 115px;
+    padding: 35px;
+    text-decoration: none;
+    color: white;
+    
+    
+   
+}
+
+footer a:nth-child(1){
+
+    background-color: #ff764e;
+}
+
+footer a:nth-child(2){
+
+    background-color: #5ed3eb;
+}
+
+footer a:nth-child(3){
+
+    background-color: #ffcd69;
+}
+
+.image1 img{
+   
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+       
+}
+
+
+
+.fire  {
+    width: 10%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 5%;    
+}
+
+.bus  {
+
+    width: 10%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: 10%;
+}
